@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Cairo&family=Creepster&family=Dongle:wght@300&family=Josefin+Sans:ital,wght@1,500&family=Kanit:wght@300&family=Mochiy+Pop+P+One&family=Outfit:wght@200;300&family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Rubik+Beastly&family=Sedgwick+Ave&display=swap');
+:root {
+    --first-color : hsl(250, 69%, 61%);
+    --first-color-second : hsl(250, 69%, 61%);
+    --first-color-alt: hsl(250, 57%, 53%);
+    --first-color-lighter: hsl(250, 92%, 85%);
+    --title-color: hsl(250, 8%, 15%);
+    --text-color: hsl(250, 8%, 45%);
+    --text-color-light: hsl(250,8%, 65%);
+    --input-color :  hsl(250, 70%, 96%);
+    --body-color:  hsl(250, 60%, 99%);
+    --close_1 : #000;
+
+    --body-font: 'Poppins', sans-serif;
+    --box-shadow-nav:-12px 4px 18px 0px rgb(0 0 0 / 15%);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0; 
+    font-family: var(--body-font) !important;
+}
+body {
+    scroll-behavior: smooth;
+    overflow: hidden;
+    background: url("../images/chuttersnap-rk2s0sm8xF4-unsplash.jpg") no-repeat;
+    background-size:cover;
+    color: #fff;
+}
+.part1 {
+    gap: calc(100vh - 230px);
+}
+.part1 .degré {
+    font-size: 50px;
+}
+.SearchInput {
+    background-color: transparent !important;
+    width: 83%;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px grey solid;
+    padding: 3px;
+    flex-direction: column;
+    color: #ccc  !important;
+}
+.hr {
+    width:96%;
+    height: 2.1px;
+    background-color: grey;
+    margin: 30px auto;
+    text-align: center;
+}
+.part2 {
+    background-color: rgba(110, 110, 110, 0.25);
+    box-shadow:  0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+.topSearchBtn {
+    color: #ccc  !important;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.topSearchBtn:hover {
+    color: #fff !important;
+}
